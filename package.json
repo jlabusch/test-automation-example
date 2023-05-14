@@ -1,0 +1,12 @@
+{
+    "name": "paysauce-tests",
+    "description": "Automated testing repository",
+    "version": "0.0.1",
+    "keywords": [],
+    "author": "Jacques Labuschagne <jacques@paysauce.com>",
+    "license": "GPLv3",
+    "dependencies": {
+        "@cucumber/cucumber": "~9",
+        "selenium-webdriver": "~4"
+    }
+}
