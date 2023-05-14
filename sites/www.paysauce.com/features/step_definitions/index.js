@@ -3,13 +3,9 @@ const {setWorldConstructor, Before, Given, When, Then, After} = require('@cucumb
 const {Builder, By, until} = require('selenium-webdriver');
 const PaySauceWorld = require('../../lib/world.js');
 
-var __N = 1;
-
 setWorldConstructor(PaySauceWorld);
 
 Before(async function(){
-    this.__n = __N++;
-
     this.setup();
 });
 
