@@ -8,6 +8,4 @@ COPY . /opt/paysauce-tests
 
 RUN npm install
 
-RUN ./bin/install_webdrivers.sh
-
 ENTRYPOINT ["./bin/run_tests.sh"]
