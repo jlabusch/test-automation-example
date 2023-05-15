@@ -11,7 +11,7 @@ class PaySauceWorld extends World{
 
     async setup(){
         this.driver = new Builder()
-                .usingServer('http://192.168.1.62:4444')
+                .usingServer(`http://${process.env.SELENIUM_HUB_HOST}:4444`)
                 .forBrowser('firefox')
                 .build();
 
